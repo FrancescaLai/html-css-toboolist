@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f6f8f9;
+}
+
+/*heading */
+header{
+  padding: 20px;
+  background-color: white;
+}
+
+.logo-img{
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo-text{
+  display: inline;
+  vertical-align: middle;
+  font-size: 30px;
+}
+/* /heading */
+
+.container{
+  width: 80%;
+  background-color: white;
+  margin: auto;
+}
+
+.actions{
+  border-bottom: 2px solid #f6f8f9;
+  margin-top: 30px;
+  padding: 15px 30px;
+}
+
+.button {
+  padding: 8px;
+  font-size: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffc1b6;
+}
+.colored-button{
+  background-color: #ffdcb8;
+}
+
+.tasks{
+  padding: 20px;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin: 20px 0;
+}
+.circle{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.green{
+  border: 1px solid #2cc6ab;
+  color: #2cc6ab;
+
+}
+.red{
+  border: 1px solid #c70039;
+  color: #c70039;
+}
+
+/* tags */
+.tag{
+  padding: 7px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+}
+.tag-1{
+  background-color: #ffc1b6;
+}
+.tag-2{
+  background-color: #184d47;
+}
+.tag-3{
+  background-color: #96bb7c;
+}
+.tag-4{
+  background-color: #e7d9ea;
+}
+/* /tags */
